@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "SofiaSansMedium";
+    src: url("/fonts/SofiaSans/Medium.ttf");
+}
+
+@font-face {
+    font-family: "SofiaSansLight";
+    src: url("../../public/fonts/SofiaSans/Light.ttf");
+}
+
+@font-face {
+    font-family: "MontserratLight";
+    src: url("../../public/fonts/Montserrat/Light.ttf");
+}
+
+@font-face {
+    font-family: "MontserratRegular";
+    src: url("../../public/fonts/Montserrat/Regular.ttf");
+}
+
+@font-face {
+    font-family: "MontserratSemiBold";
+    src: url("../../public/fonts/Montserrat/SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "MontserratMedium";
+    src: url("../../public/fonts/Montserrat/Medium.ttf");
+}

@@ -1,0 +1,30 @@
+:root {
+    --black-main-text-color: #1E1E1E;
+    --white-main-text-color: #EAEAEA;
+    --secondary-text-color: #505050;
+    --border-color: #A7A7A7;
+    --inactive-color: #CECECE;
+    --active-button-color: #2B312E;
+    --main-container-color: #E6E6E6;
+    --link-color: #0057A8;
+    --active-blue-color: #4980D3;
+
+
+    --default-container-border-radius: 15px;
+    --text-input-border-radius: 5px;
+    --button-border-radius: 50px;
+
+    --title-text-size: 28px;
+    --secondary-text-size: 18px;
+    --input-label-text-size: 12px;
+    --question-description-text-size: 16px;
+    --question-answer-text-size: 15px;
+    --button-text-size: 20px;
+
+    --landing-page-title-size: 60px;
+    --landing-page-subtitle-size: 30px;
+    --landing-page-description-size: 20px;
+
+
+    --page-bg-gradient: linear-gradient(107.13deg, #DCDCDC 9.2%, #C7C7C7 100%);;
+}

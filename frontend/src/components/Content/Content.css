@@ -1,0 +1,34 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 72px;
+}
+
+
+
+.info-container {
+    max-width: 850px;
+    max-height: 549px;
+    padding: 0px 112px;
+
+    width: 850px;
+    height: 850px;
+    
+    min-width: 362px;
+    min-height: 517px;
+
+    border-radius: var(--default-container-border-radius);
+    background-color: var(--main-container-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    max-height: 150px;
+    max-width: 150px;
+}
