@@ -4,7 +4,8 @@
     justify-content: center;
     min-width: 100%;
     min-height: 100%;
-    margin-top: 72px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -13,12 +14,9 @@
     max-width: 850px;
     max-height: 549px;
     padding: 0px 112px;
-
-    width: 850px;
-    height: 850px;
     
-    min-width: 362px;
-    min-height: 517px;
+    min-width: 300px;
+    min-height: 450px;
 
     border-radius: var(--default-container-border-radius);
     background-color: var(--main-container-color);
@@ -31,4 +29,9 @@
 .logo {
     max-height: 150px;
     max-width: 150px;
+}
+
+.button {
+    min-width: 278px;
+    min-height: 50px;
 }

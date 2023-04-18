@@ -11,7 +11,7 @@ type BorderedButtonProps = {
 const BorderedButton:React.FC<BorderedButtonProps> = ({children}) =>
 {
     return (
-        <button className="bordered-button">{children}</button>
+        <button className="bordered-button button">{children}</button>
     )
 }
 

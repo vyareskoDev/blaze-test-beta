@@ -11,7 +11,7 @@ type DefaultButtonProps = {
 const DefaultButton:React.FC<DefaultButtonProps> = ({children}) =>
 {
     return (
-        <button className="default-button">{children}</button>
+        <button className="default-button button">{children}</button>
     )
 }
 

@@ -1,7 +1,6 @@
 .top {
     min-height: 325px;
-    max-height: 500px;
-    height: fit-content;
+    max-height: 400px;
     background: linear-gradient(93.88deg, #8FB4C9 0.01%, #A19CDD 100%);
     color: var(--black-main-text-color);
     font-family: "SofiaSansMedium";
@@ -52,5 +51,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
+    gap: 28px;
 }

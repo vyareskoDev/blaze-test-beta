@@ -1,8 +1,6 @@
 .bordered-button {
     background-color: transparent;
     color: var(--black-main-text-color);
-    min-width: 200px;
-    min-height: 40px;
     font-family: "MontserratMedium";
     font-size: var(--button-text-size);
     border: 3px solid #2B312E;
