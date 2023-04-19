@@ -6,14 +6,14 @@ export default function Content()
         <section className="content">
           <div className='info-container'>
             <div className='info-container__header'>
-              <img className="logo" src="../../../public/assets/logo-placeholder.svg"></img>
-              <h3>УВАГА!</h3>
+              <img className="logo" src="/assets/logo-placeholder.svg"></img>
+              <span>УВАГА!</span>
             </div>
             <div className='info-container__content'>
               <p>
                 Це тестова <span className='info-container__bolder-text'>БЕТА ВЕРСІЯ</span> застосунку.
                 У цій версії відсутня <span className='info-container__bolder-text'>більша частина можливостей</span>,
-                що будуть доступні у повноцінній версії, і вона є всього лише демонстрацією можливостей платформи.
+                що будуть доступні у повноцінній версії, і вона є всього лише демонстрацією можливостей платформи.<br/><br/>
                 <span className='margin-top-50px'>Дякую за розуміння.</span>
               </p>
             </div>

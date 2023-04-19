@@ -2,10 +2,7 @@ import "./BorderedButton.css";
 import React from "react";
 
 type BorderedButtonProps = {
-    children:
-        JSX.Element | JSX.Element[] |
-        React.ReactElement | React.ReactElement[] |
-        string;
+    children: any;
 }
 
 const BorderedButton:React.FC<BorderedButtonProps> = ({children}) =>

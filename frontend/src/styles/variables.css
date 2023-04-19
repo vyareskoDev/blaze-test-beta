@@ -25,6 +25,9 @@
     --landing-page-subtitle-size: 30px;
     --landing-page-description-size: 20px;
 
+    --landing-page-mobile-title-size: 35px;
+    --landing-page-mobile-subtitle-size: 16px;
+    --landing-page-mobile-description-size: 14px;
 
     --page-bg-gradient: linear-gradient(107.13deg, #DCDCDC 9.2%, #C7C7C7 100%);;
 }

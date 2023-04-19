@@ -1,13 +1,24 @@
 import './App.css'
-import TopSection from './components/TopSection/TopSection';
-import Content from './components/Content/Content';
+import HomePage from './pages/HomePage';
+import ConstructTest from './pages/ConstructTest';
+import {Route, Routes} from "react-router-dom";
+import {TransitionGroup, CSSTransition} from "react-transition-group";
+import "../src/styles/animations/pageSwitch.css";
 
 
 function App() {
   return (
     <div className="app">
-        <TopSection />
-        <Content />
+      <TransitionGroup>
+        <Routes>
+            <CSSTransition timeout={200} classNames="left"> 
+              <Route path='/' Component={HomePage}></Route>
+            </CSSTransition>
+            <CSSTransition timeout={200} classNames="right">
+              <Route path='/construct-test' Component={ConstructTest}></Route>  
+            </CSSTransition>   
+        </Routes>
+      </TransitionGroup>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import "./TopSection.css";
 import DefaultButton from '../DefaultButton/DefaultButton';
 import BorderedButton from '../BorderedButton/BorderedButton';
+import { Link } from "react-router-dom";
 
 
 export default function TopSection()
@@ -17,8 +18,13 @@ export default function TopSection()
                     або пройдіть вже існуючий
                 </div>
                 <div className='actions__buttons'>
-                    <DefaultButton>Створити</DefaultButton>
-                    <BorderedButton>Пройти</BorderedButton>
+                    <DefaultButton>
+                        <Link to="/construct-test">Створити</Link>
+                    </DefaultButton>
+                    
+                    <BorderedButton>
+                        <Link to="/construct-test">Пройти</Link>
+                    </BorderedButton>
                 </div>
             </div>
         </section>

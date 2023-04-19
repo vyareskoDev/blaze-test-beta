@@ -2,10 +2,7 @@ import "./DefaultButton.css";
 import React from "react";
 
 type DefaultButtonProps = {
-    children:
-        JSX.Element | JSX.Element[] |
-        React.ReactElement | React.ReactElement[] |
-        string;
+    children: any;
 }
 
 const DefaultButton:React.FC<DefaultButtonProps> = ({children}) =>
