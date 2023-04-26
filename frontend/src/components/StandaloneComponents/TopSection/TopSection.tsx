@@ -1,6 +1,6 @@
 import "./TopSection.css";
-import DefaultButton from '../DefaultButton/DefaultButton';
-import BorderedButton from '../BorderedButton/BorderedButton';
+import DefaultButton from '../../Buttons/DefaultButton/DefaultButton';
+import BorderedButton from '../../Buttons/BorderedButton/BorderedButton';
 import { Link } from "react-router-dom";
 
 

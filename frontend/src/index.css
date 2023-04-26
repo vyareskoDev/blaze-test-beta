@@ -18,3 +18,8 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   font-weight: normal;
   font-size: inherit;
 }
+
+button {
+  border: 0;
+  outline: 0;
+}

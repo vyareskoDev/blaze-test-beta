@@ -1,10 +1,12 @@
 import "./Content.css";
+import DefaultContainer from "../../DefaultContainer/DefaultContainer";
+
 
 export default function Content()
 {
     return (
         <section className="content">
-          <div className='info-container'>
+          <DefaultContainer>
             <div className='info-container__header'>
               <img className="logo" src="/assets/logo-placeholder.svg"></img>
               <span>УВАГА!</span>
@@ -17,7 +19,7 @@ export default function Content()
                 <span className='margin-top-50px'>Дякую за розуміння.</span>
               </p>
             </div>
-          </div>
+            </DefaultContainer>
       </section>
     )
 }

@@ -1,5 +1,5 @@
-import TopSection from '../components/TopSection/TopSection';
-import Content from '../components/Content/Content';
+import TopSection from '../components/StandaloneComponents/TopSection/TopSection';
+import Content from '../components/StandaloneComponents/Content/Content';
 
 export default function HomePage() {
     return (
