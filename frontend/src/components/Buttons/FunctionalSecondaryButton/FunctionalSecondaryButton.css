@@ -1,8 +1,0 @@
-.functional-secondary-button {
-    height: 45px;
-    width: fit-content;
-    padding: 15px;
-    border-radius: 10px;
-    border-color: var(--border-color);
-    color: var(--secondary-text-color)
-}

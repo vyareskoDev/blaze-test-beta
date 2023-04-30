@@ -1,8 +1,0 @@
-.functional-button {
-    background-color: var(--active-button-color);
-    color: var(--white-main-text-color);
-    border-radius: 10px;
-    width: 278px;
-    width: fit-content;
-    padding: 15px;
-}

@@ -1,6 +1,6 @@
 import DefaultContainer from "../components/DefaultContainer/DefaultContainer";
-import FunctionalSecondaryButton from "../components/Buttons/FunctionalSecondaryButton/FunctionalSecondaryButton";
-import FunctionalButton from "../components/Buttons/FunctionalButton/FunctionalButton";
+import Button from "../components/Button/Button";
+import "../styles/pagesStyles/ConstructPage.css";
 import React, {useState} from "react";
 
 export default function ConstructTest() {
@@ -15,8 +15,8 @@ export default function ConstructTest() {
                     </form>
                 </div>
                 <div className="buttons">
-                    <FunctionalSecondaryButton disabled={false}>Відмінити</FunctionalSecondaryButton>
-                    <FunctionalButton disabled={isFullfilled}>Зберегти & Продовжити</FunctionalButton>
+                    <Button className="bordered-button button" onClick={() => {console.log("Hi!")}}>Відмінити</Button>
+                    <Button className="default-button button" disabled={!isFullfilled}>Зберегти & Продовжити</Button>
                 </div>
 
             </DefaultContainer>
