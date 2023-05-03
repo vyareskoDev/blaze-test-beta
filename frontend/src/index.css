@@ -45,3 +45,12 @@ button {
 .default-button:hover {
   cursor: pointer;
 }
+
+.default-button:disabled {
+  background-color: var(--inactive-color);
+  color: var(--secondary-text-color);
+}
+
+.default-button:disabled:hover {
+  cursor: default;
+}

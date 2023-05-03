@@ -1,0 +1,4 @@
+.bordered-button {
+    border-color: var(--border-color);
+    color: var(--secondary-text-color);
+}
