@@ -3,15 +3,16 @@ import React, { MouseEventHandler } from "react";
 
 type ButtonProps = {
     children: any;
+    id?: string;
     className?: string;
     disabled?: boolean;
     onClick?: MouseEventHandler;
 }
 
-const Button:React.FC<ButtonProps> = ({children, className, disabled, onClick}) =>
+const Button:React.FC<ButtonProps> = ({children, className, disabled, id, onClick}) =>
 {
     return (
-        <button className={className+" button"} disabled={disabled} onClick={onClick}>{children}</button>
+        <button className={className+" button"} disabled={disabled} onClick={onClick} id={id}>{children}</button>
     )
 }
 

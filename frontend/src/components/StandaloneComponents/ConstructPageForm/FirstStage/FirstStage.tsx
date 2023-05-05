@@ -14,8 +14,8 @@ const FirstStage:React.FC<FirstStageProps> = ({createTestFormData}) => {
     const [formData, setFormData] = useState(createTestFormData)
     const [isFullfilled, setIsFullfilled] = useState(false);
     return (
-        <>
-            <DefaultContainer>
+        <div id="first-stage">
+            <DefaultContainer className="container">
                 <div className="construct-test-content">
                     <div className="content__navigation"></div>
                     <div className="content__description">
@@ -26,7 +26,7 @@ const FirstStage:React.FC<FirstStageProps> = ({createTestFormData}) => {
                     </div>
                     <form id="first-stage-form" className="content__form">
                         <label htmlFor="subject-input">Предмет</label>
-                        <input id="subject-input" type="text" list="subjects-list" required>Введіть назву предмету</input>
+                        <input id="subject-input" type="text" list="subjects-list" placeholder="Введіть назву предмету" required></input>
                         <datalist id="subjects-list">
                             <option value="Математика" />
                             <option value="Історія" />
@@ -42,12 +42,12 @@ const FirstStage:React.FC<FirstStageProps> = ({createTestFormData}) => {
                     </form>
                 </div>
                 <div className="buttons">
-                    <Button className="bordered-button button">Відмінити</Button>
-                    <Button className="default-button button" disabled={!isFullfilled}>Зберегти & Продовжити</Button>
+                    <Button className="bordered-button button" id="cancel-button">Відмінити</Button>
+                    <Button className="default-button button" disabled={!isFullfilled} id="proceed-button">Зберегти & Продовжити</Button>
                 </div>
 
             </DefaultContainer>
-        </>
+        </div>
     )
 }
 

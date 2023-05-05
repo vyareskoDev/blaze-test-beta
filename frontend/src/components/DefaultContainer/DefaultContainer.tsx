@@ -3,11 +3,13 @@ import React from "react"
 
 type DefaultContainerProps = {
     children: JSX.Element | JSX.Element[];
+    className?: string;
 }
 
-const DefaultContainer:React.FC<DefaultContainerProps> = ({children}) => {
+const DefaultContainer:React.FC<DefaultContainerProps> = ({children, className}) => {
+    className += " info-container";
     return (
-        <div className="info-container">
+        <div className={className}>
             {children}
         </div>
     )
