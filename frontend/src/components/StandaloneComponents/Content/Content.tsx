@@ -6,7 +6,7 @@ export default function Content()
 {
     return (
         <section className="content">
-          <DefaultContainer>
+          <DefaultContainer id="content__info-container">
             <div className='info-container__header'>
               <img className="logo" src="/assets/logo-placeholder.svg"></img>
               <span>УВАГА!</span>

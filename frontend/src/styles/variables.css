@@ -4,6 +4,7 @@
     --secondary-text-color: #505050;
     --border-color: #A7A7A7;
     --inactive-color: #CECECE;
+    --inactive-nav-element-color: #898989;
     --active-button-color: #2B312E;
     --main-container-color: #E6E6E6;
     --link-color: #0057A8;
@@ -21,6 +22,7 @@
     --question-description-text-size: 16px;
     --question-answer-text-size: 15px;
     --button-text-size: 20px;
+    --nav-title-size: 15px;
 
     --landing-page-title-size: 60px;
     --landing-page-subtitle-size: 30px;

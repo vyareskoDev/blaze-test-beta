@@ -11,11 +11,11 @@
 
 
 
-.info-container {
+#content__info-container {
     font-size: var(--landing-page-description-size);
-    width: 849px;
-    height: 549px;
     padding: 50px 80px;
+    width: 50vw;
+    height: 45vh;
 
     border-radius: var(--default-container-border-radius);
     background-color: var(--main-container-color);
@@ -49,14 +49,14 @@
 }
 
 @media (min-width: 1980px) {
-    .info-container {
+    #content__info-container {
         width: 1132px;
         height: 600px;  
     }
 }
 
-@media (max-width: 1000px) {
-    .info-container {
+@media (max-width: 1100px) {
+    #content__info-container {
         width: 100%;
         height: 100%;
     }
@@ -73,7 +73,7 @@
     .content {
         padding: 10px;
     }
-    .info-container {
+    #content__info-container {
         padding: 20px;
         height: fit-content;
         font-size: var(--landing-page-mobile-description-size);;
