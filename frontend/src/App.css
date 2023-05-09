@@ -4,4 +4,17 @@
 
 .app {
   min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.top, .content {
+  width: 100%;
+}
+
+.content {
+  margin-bottom: 15vh;
 }
